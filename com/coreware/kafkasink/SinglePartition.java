@@ -8,6 +8,7 @@ import org.slf4j.LoggerFactory;
 
 public class SinglePartition implements Partitioner {
 
+    private static final Logger LOGGER = LoggerFactory.getLogger(SinglePartition.class);
 
 
     public SinglePartition(VerifiableProperties props) {
